@@ -7,7 +7,7 @@ body, h1, p {
 /* Apply a background image to the body */
 body {
     background-image: url('/ArmyofLovers/Fight Aids.jpg'); /* Replace 'Fight Aids.jpg' with the path to your image */
-    background-size: contain;
+    background-size: 30%;
     background-position: center;
     font-family: 'Georgia', serif;
     line-height: 1.6;
@@ -24,7 +24,7 @@ header {
 
 /* Style the main content */
 main {
-    max-width: 800px;
+    max-width: 700px;
     margin: 20px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background color for better readability */
