@@ -1,51 +1,53 @@
 /* Reset some default styles */
-body, h1, h2, h3, p {
+body, h1, p {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a background color to the body */
+/* Apply a background image to the body */
 body {
-    background-color: #f4f4f4;
+    background-image: url('/ArmyofLovers/Fight Aids.jpg'); /* Replace 'Fight Aids.jpg' with the path to your image */
+    background-size: contain;
+    background-position: center;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #fff; /* Adjust text color to be visible against the background */
 }
 
 /* Style the header */
 header {
-    background-color: rgba(139, 14, 104, 0.502);
+    background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background color for better readability */
     color: #fff;
-    padding: 1em;
     text-align: center;
+    padding: 1em;
 }
 
 /* Style the main content */
 main {
-    max-width: 1250px;
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background color for better readability */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the poem content */
+main p {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #333;
+    line-height: 1.5;
 }
 
 /* Style the footer */
 footer {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background color for better readability */
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
+    position: fixed; /* Change to fixed for a fixed-position footer */
     bottom: 0;
     width: 100%;
 }
-
-/* Add additional styles for your content */
-/* For example, you can style headings, paragraphs, etc. */
-
-h1 {
-    color: #333;
-}
-
-p {
-    line-height: 1.6;
-}
-
-/* Add any other custom styles here */
