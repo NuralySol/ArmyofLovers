@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Army of Lovers</title>
+    
+    <!-- The stylesheet is below -->
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+            margin: 0; /* Remove default margin to avoid unnecessary space */
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            flex: 1; /* Expand and fill the available space */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: rgba(205, 18, 93, 0);
+        }
+
+        #secondMainSection {
+            background-color: rgba(205, 18, 93, 0); /* Example background color */
+        }
+
+        .flexbox-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 800px; /* Adjust the maximum width as needed */
+        }
+
+        .flexbox-item {
+            width: 200px;
+            height: 115px;
+            background-color: rgba(205, 18, 93, 0); /* Completely transparent */
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+   
+    <header>
+        <h1>Love is boundless</h1>
+    </header>
+
+    <main id="mainSection">
+        <div class="flexbox-container">
+            <div class="flexbox-item"></div>
+            <div class="flexbox-item"></div>
+            <div class="flexbox-item"></div>
+        </div>
+    </main>
+
+    <main id="secondMainSection">
+        <div class="flexbox-container">
+            <div class="flexbox-item"></div>
+            <div class="flexbox-item"></div>
+            <div class="flexbox-item"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Nuraly Soltonbekov 2023</p>
+    </footer>
+
+</body>
+</html>
+

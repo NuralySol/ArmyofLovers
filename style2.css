@@ -1,0 +1,71 @@
+/* Reset some default styles and set a background color */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f7f7f7;
+}
+
+/* Header and Footer Styles */
+header, footer {
+    background-color: rgba(140, 138, 26, 0.435);
+    color: rgb(200, 16, 16);
+    padding: 1em;
+    text-align: center;
+}
+
+/* Main Section Styles */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(205, 18, 93, 0);
+}
+
+#secondMainSection {
+    background-color: rgba(205, 18, 93, 0);
+}
+
+/* Flexbox Container Styles */
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Flexbox Item Styles with Poetic Touch */
+.flexbox-item {
+    width: 200px;
+    height: 115px;
+    background-color: rgba(205, 18, 93, 0);
+    margin: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(205, 18, 93, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for Flexbox Items */
+.flexbox-item:hover {
+    transform: scale(1.1);
+}
+
+/* Poetic Fonts and Styling for Text */
+h1 {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+}
+
+/* Styling for Footer Text */
+footer p {
+    font-size: 0.8em;
+}
